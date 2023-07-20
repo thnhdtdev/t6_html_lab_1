@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <div>
         <div>
-            <h3>LOGO</h3>
+            <h3 class="logo-text">LOGO</h3>
         </div>
         <div>
-            <ul>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">TEAM</a></li>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">PRICING</a></li>
-                <li><a href="#">CONTACT</a></li>
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-link" href="#">ABOUT</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">TEAM</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">WORK</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">PRICING</a></li>
+                <li class="menu-item"><a class="menu-link" href="#">CONTACT</a></li>
             </ul>
         </div>
 
@@ -26,44 +30,48 @@
     <!-- banner -->
     <div>
         <!-- hinh anh -->
-        <div>
+        <!-- <div>
             <img src="./images/mac.jpg" alt="">
-        </div>
+        </div> -->
         <!-- thong tin bo sung -->
-        <div>
-            <h2>Start something that matters</h2>
-            <p>Stop wasting valuable time with projects that just isn't you.</p>
-            <p>Learn more and start today</p>
+        <div class="banner-info">
+            <h2 class="banner-title">Start something that matters</h2>
+            <p class="banner-decs">Stop wasting valuable time with projects that just isn't you.</p>
+            <button class="banner-btn">Learn more and start today</button>
         </div>
     </div>
 
     <!-- ABOUT THE COMPANY -->
 
     <div>
-        <div style="text-align: center;">
-            <h2>ABOUT THE COMPANY</h2>
-            <p>Key features of our company</p>
+        <div class="about">
+            <p class="about-title">ABOUT THE COMPANY</p>
+            <p class="about-desc">Key features of our company</p>
         </div>
 
-        <div>
-            <div>
-                <h3>Responsive</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        <div class="about-txt">
+            <div class="about-respo">
+                <h3 class="about-txt-title">Responsive</h3>
+                <p class="about-txt-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore.</p>
             </div>
-            <div>
-                <h3>Passion</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            <div class="about-passion">
+                <h3 class="about-txt-title">Passion</h3>
+                <p class="about-txt-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore.</p>
             </div>
-            <div>
-                <h3>Design</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            <div class="about-design">
+                <h3 class="about-txt-title">Design</h3>
+                <p class="about-txt-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore.</p>
             </div>
-            <div>
-                <h3>Support</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            <div class="about-support">
+                <h3 class="about-txt-title">Support</h3>
+                <p class="about-txt-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore.</p>
             </div>
         </div>
@@ -91,34 +99,57 @@
             <p>The ones who runs this company</p>
         </div>
 
-        <div>
-            <div>
-                <img src="./images/team2.jpg" alt="">
-                <h3>John Doe</h3>
-                <p>CEO & Founder</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <a href="#">Contact</a>
+        <div class="asd">
+            <div class="card">
+                <div class="card-img">
+                    <img style="width: 100%;" src="./images/team2.jpg">
+                </div>
+                <div class="user-desc">
+                    <h3 class="user-name">John Doe</h3>
+                    <p class="user-post">CEO & Founder</p>
+                    <p class="user-txt">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                        pellentesque elementum.</p>
+                    <a class="user-contact" href="">Contact</a>
+                </div>
             </div>
-            <div>
-                <img src="./images/team1.jpg" alt="">
-                <h3>Anja Doe</h3>
-                <p>Art Director</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <a href="#">Contact</a>
+            <div class="card">
+                <div class="card-img">
+                    <img style="width: 100%;" src="./images/team1.jpg">
+                </div>
+                <div class="user-desc">
+                    <h3 class="user-name">Anja Doe</h3>
+                    <p class="user-post">Art Director</p>
+                    <p class="user-txt">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                        pellentesque elementum.
+                    </p>
+                    <a class="user-contact" href="#">Contact</a>
+                </div>
             </div>
-            <div>
-                <img src="./images/team3.jpg" alt="">
-                <h3>Mike Ross</h3>
-                <p>Web Designer</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <a href="#">Contact</a>
+            <div class="card">
+                <div class="card-img">
+                    <img style="width: 100%;" src="./images/team3.jpg" alt="">
+                </div>
+                <div class="user-desc">
+                    <h3 class="user-name">Mike Ross</h3>
+                    <p class="user-post">Web Designer</p>
+                    <p class="user-txt">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
+                        pellentesque elementum.
+                    </p>
+                    <a class="user-contact" href="#">Contact</a>
+                </div>
+
             </div>
-            <div>
-                <img src="./images/team4.jpg" alt="">
-                <h3>Dan Star</h3>
-                <p>Designer</p>
-                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                <a href="#">Contact</a>
+            <div class="card">
+                <div class="card-img">
+                    <img style="width: 100%;" src="./images/team4.jpg" alt="">
+                </div>
+                <div class="user-desc">
+                    <h3>Dan Star</h3>
+                    <p>Designer</p>
+                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
+                    </p>
+                    <a class="user-contact" href="#">Contact</a>
+                </div>
             </div>
         </div>
     </div>
@@ -198,38 +229,48 @@
     <!-- PRICING -->
 
     <div>
-        <div style="text-align: center;">
-            <h2>PRICING</h2>
-            <p>Choose a pricing plan that fits your needs.</p>
+        <div class="pricing">
+            <h2 class="pri-title">PRICING</h2>
+            <p class="pri-decs">Choose a pricing plan that fits your needs.</p>
         </div>
 
-        <div>
-            <div>
+        <div class="package">
+            <div class="package-decs">
                 <h3>Basic</h3>
                 <p>10GB Storage</p>
                 <p>10 Emails</p>
                 <p>10 Domains</p>
                 <p>Endless Support</p>
                 <p>$ 10 <br> per month</p>
-                <a href="#">Sign Up</a>
+                <div class="btn-signup">
+                    <a class="signup" href="">Sign Up</a>
+                </div>
+
             </div>
-            <div>
+            <div class="package-decs">
                 <h3>Pro</h3>
                 <p>25GB Storage</p>
                 <p>25 Emails</p>
                 <p>25 Domains</p>
                 <p>Endless Support</p>
                 <p>$ 25 <br> per month</p>
-                <a href="#">Sign Up</a>
+                <div class="btn-signup">
+                    <a class="signup" href="#">Sign Up</a>
+                </div>
             </div>
-            <div>
+            <div class="package-decs">
                 <h3>Premium</h3>
                 <p>50GB Storage</p>
                 <p>50 Emails</p>
                 <p>50 Domains</p>
                 <p>Endless Support</p>
                 <p>$ 50 <br> per month</p>
-                <a href="#">Sign Up</a>
+                <div class="btn-signup">
+                    <div>
+                        <a class="signup" href="#">Sign Up</a>
+                    </div>
+                    
+                </div>
             </div>
         </div>
 
@@ -257,14 +298,16 @@
         </div>
 
         <div>
-            <img src="./images/map.jpg" alt="">
+            <img src="./images/map.jpg" alt="" style="width: 100%;">
         </div>
 
         <div style="background-color: black;">
-            <button style="background-color: black; color: white; margin-left: 650px; height: 50px; font-weight: 100px;">To the Top</button>
+            <button
+                style="background-color: black; color: white; margin-left: 650px; height: 50px; font-weight: 100px;">To
+                the Top</button>
             <p style="text-align: center; color: white;">Powered by VO THANH DAT</p>
         </div>
-        
+
 
 
 

@@ -1,0 +1,122 @@
+* {
+    font-family: "Raleway", sans-serif;
+    box-sizing: inherit;
+}
+
+.menu-item {
+    list-style: none;
+    /*tat dau cham truoc the <li>;  */
+    background: #aaa;
+    width: 200px;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner-info {
+    background: url(./images/mac.jpg);
+    height: 700px;
+    color: #fff;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.banner-title {
+    font-size: 45px;
+}
+
+.banner-btn {
+    padding: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #aaaaaa90;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 140px;
+}
+
+.about-title {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.about-txt {
+    width: 1280px;
+    display: flex;
+    padding: 0 45px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.about-txt-desc {
+    font-size: 12px;
+
+}
+
+.card {
+    width: 300px;
+    border: 1px solid;
+    box-shadow: 0px 0px 10px 0px #615f5f;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.user-desc {
+    padding: 10px;
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.user-post {
+    opacity: 0.60;
+    font-size: 14px;
+}
+
+.user-contact {
+    /* text-align: center; */
+    background: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px 90px;
+    margin-left: 18px;
+    color: #000;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.package-decs {
+    width: 30%;
+    border: 1px solid;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px #615f5f;
+}
+.btn-signup{
+    height: 80px;
+    background-color: #f1f1f1;
+}
+
+.signup {
+    text-align: center;
+    /* display: block; */
+    padding: 10px 20px;
+    background: #000000;
+    margin-left: 140px;
+    color: #fff;
+    margin-top: 150px;
+
+}
