@@ -55,7 +55,7 @@ a {
     margin-top: 20px;
 }
 .about-h{
-    margin-bottom: 150px;
+    text-align: center;
 }
 
 .about {
@@ -71,19 +71,22 @@ a {
 .about-txt {
     width: 1280px;
     display: flex;
-    padding: 0 45px;
+    padding: 0 200px;
     margin-top: 100px;
     text-align: center;
 }
 
 .about-txt-desc {
-    font-size: 12px;
+    font-size: 15px;
 
 }
 .title-view{
     float: left;
-    padding-left: 40px;
-    margin-top: 50px;
+    padding-left: 120px;
+    margin-top: 100px;
+}
+.float-left{
+    float: left;
 }
 
 .view-our-works{
@@ -97,20 +100,26 @@ a {
     margin-top: 50px;
 }
 
+.asd{
+    margin-left: 50px;
+}
+
 
 .card {
-    width: 300px;
-    /* padding: 17px; */
+    width: 21%;
+    padding: 0 8px;
     box-shadow: 0px 0px 10px 0px #615f5f;
     margin-bottom: 20px;
     padding-bottom: 10px;
     float: left;
     margin: 20px;
+
     
 }
 
 .user-desc {
     padding: 10px;
+    line-height: 1.8;
 }
 
 .user-name {
@@ -128,9 +137,32 @@ a {
     background: #f1f1f1;
     border-radius: 5px;
     padding: 10px 90px;
-    margin-left: 18px;
+    margin-left: 40px;
     color: #000;
 }
+
+.sta{
+    text-align: center;
+    padding: 100px;
+    clear: both;
+    background-color: #616161;
+    color: white;
+    
+}
+
+.sta-item{
+    padding:0 50px;
+    text-align: center;
+    margin: -80px 40px;
+    
+}
+.sta-num{
+    font-size: 36px;
+}
+.sta-title{
+    font-size: 20px;
+}
+
 
 .pricing {
     text-align: center;
@@ -156,4 +188,21 @@ a {
     color: #fff;
     margin-top: 150px;
 
+}
+
+.img-work{
+    display: block;
+    float: left;
+    padding: 0 9px;
+    margin: 20px;
+    
+}
+.img-item-work{
+    margin: 40px;
+    padding: 10px;
+    padding-left: 0;
+    padding-top: -50px;
+}
+.img-work-mar{
+    margin: 0 5px;
 }
